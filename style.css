@@ -1,0 +1,40 @@
+.information{
+    width: 40%;
+    background-color: #fAFA;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: none;
+    animation-name: pop;
+    animation-duration: 2s;
+    position: relative;
+}
+.information p{
+    padding-right: 40px;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 15px;
+    color: rgb(128, 0, 90);
+    background-color: rgba(37, 6, 66, 0.466);
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: cadetblue;
+}
+@keyframes pop{
+  
+        from{left: -900px;}
+        to{left: 0;}
+}
+.close button{
+position: absolute;
+right: 3%;
+top: 3%;
+
+}
