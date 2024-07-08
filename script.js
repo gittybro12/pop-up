@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     low.style.display = "none"
     low.addEventListener("click",display)
     
-    function display(e){
+    function display(){
         info.style.display ="block"
     }
     
